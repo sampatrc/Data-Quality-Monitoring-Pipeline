@@ -1,0 +1,156 @@
+{
+	"name": "Hotel_bookingn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Hotel_booking"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "hotel_bookings.csv",
+				"fileSystem": "rawdata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "hotel",
+				"type": "String"
+			},
+			{
+				"name": "is_canceled",
+				"type": "String"
+			},
+			{
+				"name": "lead_time",
+				"type": "String"
+			},
+			{
+				"name": "arrival_date_year",
+				"type": "String"
+			},
+			{
+				"name": "arrival_date_month",
+				"type": "String"
+			},
+			{
+				"name": "arrival_date_week_number",
+				"type": "String"
+			},
+			{
+				"name": "arrival_date_day_of_month",
+				"type": "String"
+			},
+			{
+				"name": "stays_in_weekend_nights",
+				"type": "String"
+			},
+			{
+				"name": "stays_in_week_nights",
+				"type": "String"
+			},
+			{
+				"name": "adults",
+				"type": "String"
+			},
+			{
+				"name": "children",
+				"type": "String"
+			},
+			{
+				"name": "babies",
+				"type": "String"
+			},
+			{
+				"name": "meal",
+				"type": "String"
+			},
+			{
+				"name": "country",
+				"type": "String"
+			},
+			{
+				"name": "market_segment",
+				"type": "String"
+			},
+			{
+				"name": "distribution_channel",
+				"type": "String"
+			},
+			{
+				"name": "is_repeated_guest",
+				"type": "String"
+			},
+			{
+				"name": "previous_cancellations",
+				"type": "String"
+			},
+			{
+				"name": "previous_bookings_not_canceled",
+				"type": "String"
+			},
+			{
+				"name": "reserved_room_type",
+				"type": "String"
+			},
+			{
+				"name": "assigned_room_type",
+				"type": "String"
+			},
+			{
+				"name": "booking_changes",
+				"type": "String"
+			},
+			{
+				"name": "deposit_type",
+				"type": "String"
+			},
+			{
+				"name": "agent",
+				"type": "String"
+			},
+			{
+				"name": "company",
+				"type": "String"
+			},
+			{
+				"name": "days_in_waiting_list",
+				"type": "String"
+			},
+			{
+				"name": "customer_type",
+				"type": "String"
+			},
+			{
+				"name": "adr",
+				"type": "String"
+			},
+			{
+				"name": "required_car_parking_spaces",
+				"type": "String"
+			},
+			{
+				"name": "total_of_special_requests",
+				"type": "String"
+			},
+			{
+				"name": "reservation_status",
+				"type": "String"
+			},
+			{
+				"name": "reservation_status_date",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

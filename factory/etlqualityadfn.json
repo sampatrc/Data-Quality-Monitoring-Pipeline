@@ -1,0 +1,9 @@
+{
+	"name": "etlqualityadfn",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ea3b91db-ae20-4bf5-930a-78dc3d26ca8c",
+		"tenantId": "474565c1-bca4-4295-a2f5-b0c7dbf2591c"
+	}
+}
