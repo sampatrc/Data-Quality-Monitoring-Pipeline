@@ -34,7 +34,7 @@ Organizations face:
 The project covers:
 - Automated validation with PySpark in Azure Databricks
 - Event-triggered pipelines using Logic Apps
-- Real-time alerts and visual dashboards via Power BI
+- Real-time alerts 
 - Scalable storage and orchestration using ADLS and Data Factory
 
 ---
