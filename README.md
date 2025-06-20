@@ -4,7 +4,7 @@ In today’s data-driven world, ensuring high-quality data is essential for accu
 
 ## 🔧 Solution Architecture
 
-![Architecture Diagram]() <!-- Replace with actual file name if different -->
+![Architecture Diagram](https://github.com/sampatrc/Data-Quality-Monitoring-Pipeline/blob/main/Architecture.png) <!-- Replace with actual file name if different -->
 
 ---
 
