@@ -2,7 +2,9 @@
 
 In today’s data-driven world, ensuring high-quality data is essential for accurate analytics and decision-making. This project introduces a **cloud-native automated system** for monitoring and validating data quality in ETL pipelines using Microsoft Azure services.
 
-![Architecture Diagram](./architecture.png) <!-- Replace with actual file name if different -->
+## 🔧 Solution Architecture
+
+![Architecture Diagram]() <!-- Replace with actual file name if different -->
 
 ---
 
